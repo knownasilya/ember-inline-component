@@ -1,7 +1,7 @@
 {
   "name": "ember-inline-component",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Blueprint Addon for Ember Components that have inline templates",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,15 +11,14 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/knownasilya/ember-inline-component",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Ilya Radchenko <ilya@burstcreations.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
-    "ember-ajax": "0.6.3",
     "ember-cli": "1.13.8",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-content-security-policy": "0.4.0",
@@ -31,7 +30,6 @@
     "ember-cli-release": "0.2.8",
     "ember-cli-sri": "^1.1.0",
     "ember-cli-uglify": "^1.2.0",
-    "ember-data": "2.1.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
     "ember-resolver": "^2.0.3",
@@ -39,7 +37,12 @@
     "ember-try": "~0.0.8"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "blueprint",
+    "generate",
+    "inline template",
+    "component",
+    "precompile"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5",
