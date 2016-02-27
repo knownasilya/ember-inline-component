@@ -1,26 +1,42 @@
-# Ember-inline-component
+# ember-inline-component
 
-This README outlines the details of collaborating on this Ember addon.
+Blueprint Addon for Ember Components that have inline templates.
 
-## Installation
+[![NPM][npm-badge-img]][npm-badge-link]
+[![Build Status][travis-badge]][travis-badge-url]
+[![Ember Observer Score][ember-observer-badge]][ember-observer-url]
+![Ember Version][ember-version]
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+Uses the wonderful [ember-cli-htmlbars-inline-precompile] addon behind the scenes.
 
-## Running
+## Install
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```shell
+ember install ember-inline-component
+```
 
-## Running Tests
+## Usage
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+```shell
+ember g inline-component my-component
+ember g inline-component --pod another-one
+```
 
-## Building
+Also works when generating inside an addon.
 
-* `ember build`
+## Contributing
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+If you see any issues, please submit an Issue, or a Pull Request if you can.
+
+See [CONTRIBUTING.md].
+
+
+[ember-cli-htmlbars-inline-precompile]: https://github.com/pangratz/ember-cli-htmlbars-inline-precompile
+[CONTRIBUTING.md]: CONTRIBUTING.md
+[npm-badge-img]: https://badge.fury.io/js/ember-inline-component.svg
+[npm-badge-link]: http://badge.fury.io/js/ember-inline-component
+[travis-badge]: https://travis-ci.org/knownasilya/ember-inline-component.svg
+[travis-badge-url]: https://travis-ci.org/knownasilya/ember-inline-component
+[ember-observer-badge]: http://emberobserver.com/badges/ember-inline-component.svg
+[ember-observer-url]: http://emberobserver.com/addons/ember-inline-component
+[ember-version]: https://embadge.io/v1/badge.svg?start=1.13.0
