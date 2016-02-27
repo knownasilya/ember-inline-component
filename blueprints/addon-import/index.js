@@ -1,8 +1,7 @@
 /*jshint node:true*/
 
-var stringUtil  = require('ember-cli-string-utils');
 var path        = require('path');
-var inflector   = require('inflection');
+var stringUtil  = require('ember-cli-string-utils');
 var SilentError = require('silent-error');
 
 module.exports = {
