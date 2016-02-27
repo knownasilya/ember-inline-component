@@ -22,7 +22,21 @@ ember g inline-component my-component
 ember g inline-component --pod another-one
 ```
 
-Also works when generating inside an addon.
+This creates a component file that looks like:
+
+```js
+import Ember from 'ember';
+import hbs from 'htmlbars-inline-precompile';
+
+export default Ember.Component.extend({
+  layout: hbs`{{yield}}`
+});
+```
+
+So you can build components with the template inside the source itself, skipping the `template.hbs` file.
+Great for prototyping, and fast development. Can always be moved to a separate template file if your template gets big.
+
+*Also works when generating inside an addon.*
 
 ## Contributing
 
