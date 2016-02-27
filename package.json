@@ -1,6 +1,6 @@
 {
   "name": "ember-inline-component",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Blueprint Addon for Ember Components that have inline templates",
   "directories": {
     "doc": "doc",
