@@ -38,6 +38,14 @@ Great for prototyping, and fast development. Can always be moved to a separate t
 
 *Also works when generating inside an addon.*
 
+## Linting
+
+Note that the excellent [ember-template-lint](https://github.com/rwjblue/ember-template-lint)
+project is extremely helpful for finding lint errors in handlebars files, but will
+not examine template literals natively in `.js` files. However, it is possible to use
+`eslint` along with [this eslint plugin](https://github.com/psbanka/eslint-plugin-hbs)
+to provide linting for your handlebars template literals within your `.js` files.
+
 ## Contributing
 
 If you see any issues, please submit an Issue, or a Pull Request if you can.
