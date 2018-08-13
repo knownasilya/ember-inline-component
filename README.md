@@ -25,10 +25,10 @@ ember g inline-component --pod another-one
 This creates a component file that looks like:
 
 ```js
-import Ember from 'ember';
+import Component from '@ember/component';
 import hbs from 'htmlbars-inline-precompile';
 
-export default Ember.Component.extend({
+export default Component.extend({
   layout: hbs`{{yield}}`
 });
 ```
@@ -53,6 +53,11 @@ If you see any issues, please submit an Issue, or a Pull Request if you can.
 See [CONTRIBUTING.md].
 
 
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+
 [ember-cli-htmlbars-inline-precompile]: https://github.com/pangratz/ember-cli-htmlbars-inline-precompile
 [CONTRIBUTING.md]: CONTRIBUTING.md
 [npm-badge-img]: https://badge.fury.io/js/ember-inline-component.svg
@@ -62,3 +67,4 @@ See [CONTRIBUTING.md].
 [ember-observer-badge]: http://emberobserver.com/badges/ember-inline-component.svg
 [ember-observer-url]: http://emberobserver.com/addons/ember-inline-component
 [ember-version]: https://embadge.io/v1/badge.svg?start=1.13.0
+
