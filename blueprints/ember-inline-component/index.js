@@ -6,7 +6,7 @@ module.exports = {
 
   afterInstall: function() {
     if (isPackageMissing(this, 'ember-cli-htmlbars-inline-precompile')) {
-      return this.addAddonToProject({ name: 'ember-cli-htmlbars-inline-precompile', target: '1.0.3' });
+      return this.addAddonToProject({ name: 'ember-cli-htmlbars-inline-precompile', target: '^1.0.3' });
     }
   }
 };

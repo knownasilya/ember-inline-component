@@ -69,7 +69,7 @@ module.exports = {
   afterInstall: function(options) {
     if (!options.dryRun && options.testType === 'integration' && isPackageMissing(this, 'ember-cli-htmlbars-inline-precompile')) {
       return this.addPackagesToProject([
-        { name: 'ember-cli-htmlbars-inline-precompile', target: '^0.3.1' }
+        { name: 'ember-cli-htmlbars-inline-precompile', target: '^1.0.3' }
       ]);
     }
   }
