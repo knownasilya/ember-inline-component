@@ -1,5 +1,5 @@
-import Ember from 'ember';
+import Component from '@ember/component';
 import hbs from 'htmlbars-inline-precompile';
 
-export default Ember.Component.extend({<%= contents %>
+export default Component.extend({<%= contents %>
 });
